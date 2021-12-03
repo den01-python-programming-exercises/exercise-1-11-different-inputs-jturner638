@@ -3,7 +3,7 @@ def main():
     string = input("Give a string:")
     integer = int(input("Give an integer:"))
     float_input = float(input("Give a float:"))
-    boolean = bool(input("Give a boolean:"))
+    boolean = input("Give a boolean:")
     
     print("You gave the string {}".format(string))
     print("You gave the integer {}".format(integer))
